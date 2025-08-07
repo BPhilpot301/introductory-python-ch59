@@ -60,7 +60,7 @@ print(f"deleting elements: {my_dictionary}")
 
 
 #3. Tuples
-#store multiple items in a single cariable
+#store multiple items in a single variable
 #properties: ordered and unchangeable
 my_tuple = ("apple","cherry","banana","orange")
 print(f"tuple: {my_tuple} | Data type: {type(my_tuple)}")
@@ -70,3 +70,4 @@ modified_tuple.append("watermelon")
 modified_tuple.pop(0)
 my_tuple = tuple(modified_tuple)
 print(f"tuple: {my_tuple} | Data type: {type(my_tuple)}")
+
